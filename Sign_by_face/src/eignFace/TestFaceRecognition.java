@@ -28,8 +28,8 @@ public class TestFaceRecognition  {
         String dir = args[0];
         String file = args[1];*/
     	System.out.println("start");
-    	String dir = "C:\\Users\\costa\\Desktop\\me\\programs\\opencv\\face_recognition_source\\dataSet\\";
-        String file = "C:\\Users\\costa\\Desktop\\me\\programs\\opencv\\face_recognition_source\\dataSet\\costa51.jpg";
+    	String dir = "dataSet\";
+        String file = "dataSet\costa51.jpg";
         System.out.println("second");
       try {
         EigenFaceCreator creator = new EigenFaceCreator();

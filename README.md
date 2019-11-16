@@ -5,7 +5,9 @@ Create a Employee attendance control system by java and opencv
 with java and opencv 
 
 # Description :-
-	we create a Employee attendance control system that is used monitoring cameras to recognize employees faces  in order to determine the entry and exit hours of the employees to /from the workplace and calculate the monthly salary according to these entrance and exit times automatically.
+	we create a Employee attendance control system that is used monitoring cameras to recognize employees faces  
+	in order to determine the entry and exit hours of the employees to /from the workplace and calculate 
+	the monthly salary according to these entrance and exit times automatically.
 
 # Tools :-
 

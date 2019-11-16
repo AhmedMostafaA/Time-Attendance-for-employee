@@ -50,8 +50,8 @@ import java.awt.Button;
 
 public class VideoShow extends JFrame {
 	
-	String dir = "C:\\Users\\costa\\Desktop\\me\\programs\\opencv\\face_recognition_source\\dataSet\\";
-	String demo = "C:\\Users\\costa\\Desktop\\me\\programs\\opencv\\face_recognition_source\\demo\\demo.jpg";
+	String dir = "dataSet\";
+	String demo = "demo\demo.jpg";
 	EigenFaceCreator creator = new EigenFaceCreator();
 	
 	private FeatureDetector mFeatureDectector;
@@ -85,7 +85,7 @@ public class VideoShow extends JFrame {
 		    				
 		    				//HAAR Feature Declaration 
 		    				CascadeClassifier faceDetector = new CascadeClassifier(); 
-				            faceDetector.load("C:\\opencv 3_4_1\\sources\\data\\haarcascades\\haarcascade_frontalface_alt.xml"); 
+				            faceDetector.load("opencv 3_4_1\\sources\\data\\haarcascades\\haarcascade_frontalface_alt.xml"); 
 				            if ( faceDetector.empty() ) {
 				            	String resource = getClass().getResource("haarcascade_frontalface_alt.xml").getPath();
 				                // Discard leading / if present.
